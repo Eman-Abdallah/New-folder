@@ -213,6 +213,7 @@
               formSubmitBtn.textContent = 'Submit'
             } 
             else if(stepMenuThree.className == 'formbold-step-menu3 active') {
+                event.preventDefault();
                 stepMenuOne.classList.add('active')
                 stepMenuTwo.classList.remove('active')
                 stepMenuThree.classList.remove('active')
