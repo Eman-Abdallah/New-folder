@@ -111,6 +111,7 @@ body {
 .formbold-form-confirm > div {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .formbold-confirm-btn {
